@@ -38,8 +38,8 @@ model Document {
   isChild          Boolean?
   isArchived       Boolean
   level            Int
-  content          String?
-  coverImage       String?
-  icon             String?
+  content          String?  @db.LongText
+  coverImage       String?  @db.Text
+  icon             String? 
   isPublished      Boolean
 }

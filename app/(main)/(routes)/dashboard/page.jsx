@@ -1,6 +1,6 @@
+import { getCurrentUser } from "@/app/_lib/getCurrentUser";
 import Image from "next/image";
 import CreateNoteButton from "./_components/CreateNoteButton";
-import { getCurrentUser } from "@/app/_lib/getCurrentUser";
 
 const Dashboard = async () => {
   const user = await getCurrentUser();

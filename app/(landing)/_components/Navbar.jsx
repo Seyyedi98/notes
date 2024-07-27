@@ -3,7 +3,7 @@ import { getCurrentSession } from "@/app/_lib/getCurrentUser";
 import Logo from "@/components/Logo";
 import { ModeToggle } from "@/components/ModeToggle";
 import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
+import { cn } from "@/app/_lib/utils";
 import { Avatar, AvatarFallback, AvatarImage } from "@radix-ui/react-avatar";
 import Link from "next/link";
 import React from "react";
